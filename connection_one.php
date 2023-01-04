@@ -1,0 +1,9 @@
+<?php
+
+$conn = mysqli_connect('localhost','root','','final');
+// checking the conncetion
+if(!$conn)
+{
+	die("sorry failed the connection " . mysqli_connect_error($conn));
+}
+?>
